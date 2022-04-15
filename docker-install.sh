@@ -9,6 +9,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debi
 sudo apt update &&\
 apt-cache policy docker-ce &&\
 sudo apt install -y docker-ce &&\
+sudo apt install -y docker-compose &&\
 sudo usermod -aG docker ${USER} \
 
 echo "Done. 👍"
