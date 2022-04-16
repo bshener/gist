@@ -1,1 +1,13 @@
+sudo nano /etc/nanorc
 
+bind ^c copytext main
+bind ^x cut main
+bind ^v uncut main
+bind ^z undo main
+bind ^y redo main
+bind ^f whereis main
+bind F3 findnext main
+bind ^h replace main
+bind ^q replace main
+set tabsize 4
+set linenumbers
