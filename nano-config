@@ -8,6 +8,6 @@ bind ^y redo main
 bind ^f whereis main
 bind F3 findnext main
 bind ^h replace main
-bind ^q replace main
+bind ^q exit main
 set tabsize 4
 set linenumbers
