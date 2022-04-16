@@ -1,0 +1,7 @@
+sudo adduser ricky
+
+Adding user 'ricky'
+Adding new group 'ricky' (1007)
+Adding new user 'ricky' (1005) with group 'ricky'
+Creating home directory '/home/ricky'
+Copying files from '/etc/skel'
