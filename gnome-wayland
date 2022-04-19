@@ -1,2 +1,3 @@
 echo "$(gnome-shell --version) on $(loginctl show-session $(awk '/tty/ {print $1}' <(loginctl)) -p Type | awk -F= '{print $2}')"
 
+1680x1050
